@@ -4,8 +4,13 @@ describe("sum", () => {
   let sumResult: number;
 
   beforeAll(() => {
-    console.log("Executing before all tests");
     sumResult = 10;
+    console.log("Executing before all tests", sumResult);
+  });
+
+  afterAll(() => {
+    sumResult = 0;
+    console.log("Executed after all tests", sumResult);
   });
 
   it("should do sum of 3 + 7 must be 10", () => {
