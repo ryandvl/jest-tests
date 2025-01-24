@@ -12,3 +12,6 @@ Example: "sum of 3 + 7 must be 10"
 it() is more common than test()
 - it("should it ...")
 - test("...")
+
+# E2E (End to End)
+supertest
