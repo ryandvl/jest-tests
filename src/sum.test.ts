@@ -1,4 +1,4 @@
-import { sum } from "./server";
+import { sum } from "./sum";
 
 describe("sum", () => {
   let sumResult: number;
